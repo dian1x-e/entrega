@@ -1,0 +1,188 @@
+/*Pfff, no use workbench. Pero aprendí a usar los id y modificar partes de un mismo parrafo, y también qué son los fontface :)
+.workbenchfont {
+  font-family: 'Workbench', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: 'BLED' 0, 'SCAN' 0;
+} */
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.b612-mono-regular {
+  font-family: "B612 Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.b612-mono-bold {
+  font-family: "B612 Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.b612-mono-regular-italic {
+  font-family: "B612 Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.b612-mono-bold-italic {
+  font-family: "B612 Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  margin: 5rem;
+  font-family: 'B612 Mono', monospace;
+  color: #553319;
+  background-color: #fafefc;
+  font-size: 18px;
+  display: block;
+}
+
+main {
+  padding: 0.5rem;
+  margin: 0rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 0%;
+  gap: 0rem;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+  color: #94d1be;
+  FONT-FAMILY: "Nunito", sans-serif;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'B612 Mono', monospace;
+  text-align: right;
+  color:#c3e0d7
+}
+  .reglaprim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 480px;
+  height: 200px;
+  border-radius: 43%;
+  box-shadow: rgba(50, 0, 0, 0.35) 0px 5px 15px;
+}
+  /*!--Lili, el que quedara transparente fue un acciente feliz (cómo decia Bob Ross). Si no le pongo relleno y dejo el efecto de la sombra,se ve muy wapo. Quede en shock :)*/
+
+.reglados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 400px;
+  height: 120px;
+  border-radius: 25%;
+  box-shadow: rgba(0, 30, 70, 0.3) 0px 5px 15px;
+   margin-left: 40rem;
+  margin-top:-10rem;
+  line-height:1rem;
+}
+  .reglater{ 
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  border-radius: 12%;
+  box-shadow: rgba(0, 30, 70, 0.3) 0px 5px 15px;
+   margin: 25rem;
+  margin-top:-5rem;
+  line-height:1.5rem;
+}
+.reglacuarto{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 480px;
+  height: 200px;
+  border-radius: 43%;
+  margin-top: -30rem;
+  box-shadow: rgba(50, 0, 0, 0.35) 0px 5px 15px;
+   line-height:1.5rem;
+}
+.reglaquinto{ 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 480px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 10rem;
+   margin-top: -2rem;
+  box-shadow: rgba(50, 0, 0, 0.35) 0px 5px 15px;
+}
+.reglasex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  height: 80px;
+  border-radius: 12%;
+  box-shadow: rgba(0, 30, 70, 0.3) 0px 5px 15px;
+   margin: 3rem;
+  margin-top:-10.5rem;
+   line-height:1.5rem;
+
+}
+.reglasept{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 300px;
+  height: 40px;
+  border-radius: 25%;
+  box-shadow: rgba(0, 30, 70, 0.3) 0px 5px 50px;
+   margin: 40rem;
+  margin-top:-15rem;
+}
+.reglaocta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  border-radius: 12%;
+  box-shadow: rgba(0, 30, 70, 0.3) 0px 5px 15px;
+   margin: 25rem;
+  margin-top:-33.8rem;
+  line-height:1.5rem;
+}
+.reglanona{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 270px;
+  height: 80px;
+  border-radius: 2%;
+  box-shadow: rgba(0, 30, 70, 3) 5px 10px 50px;
+   margin: 15rem;
+  margin-top:-24rem;
+
+}
